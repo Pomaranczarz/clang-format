@@ -1,3 +1,4 @@
+```yaml
 # Alignment
 
 ReferenceAlignment: Left
@@ -119,3 +120,4 @@ SortUsingDeclarations: true
 Standard: Latest
 TabWidth: 6
 UseTab: Always
+```
