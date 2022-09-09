@@ -51,7 +51,7 @@ IndentGotoLabels: false
 IndentPPDirectives: BeforeHash
 IndentRequires: true
 IndentWidth: 6
-InsertTrailingCommas: Wrapped
+InsertTrailingCommas: None
 KeepEmptyLinesAtTheStartOfBlocks: false
 LambdaBodyIndentation: OuterScope
 Language: Cpp
@@ -62,8 +62,8 @@ PackConstructorInitializers: NextLine
 PointerAlignment: Left
 QualifierAlignment: Custom
 QualifierOrder: ['inline', 'static', 'constexpr', 'volatile', 'const', 'type']
-ReferenceAlignment: Left
-RequiresClausePosition: OwnLine
+ReferenceAlignment: Pointer
+# RequiresClausePosition: OwnLine
 SeparateDefinitionBlocks: Always
 SortUsingDeclarations: true
 SpaceAfterCStyleCast: true
@@ -81,8 +81,8 @@ SpaceBeforeParensOptions:
     AfterFunctionDeclarationName: false
     AfterFunctionDefinitionName: false
     AfterOverloadedOperator: false
-    AfterRequiresClause: true
-    AfterRequiresInExpression: true
+    # AfterRequiresInClause: true
+    # AfterRequiresInExpression: true
     BeforeNonEmptyParentheses: false
 SpaceBeforeRangeBasedForLoopColon: true
 SpaceBeforeSquareBrackets: false
