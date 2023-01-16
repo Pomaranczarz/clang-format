@@ -18,13 +18,13 @@ BreakBeforeBinaryOperators: All
 BreakBeforeBraces: Custom
 BraceWrapping:
     AfterCaseLabel: true
-    AfterClass: true
+    AfterClass: false
     AfterEnum: true
     AfterExternBlock: true
-    AfterFunction: false
+    AfterFunction: true
     AfterNamespace: true
-    AfterStruct: true
-    AfterUnion: true
+    AfterStruct: false
+    AfterUnion: false
     BeforeCatch: true
     BeforeElse: true
     BeforeLambdaBody: false
@@ -32,7 +32,7 @@ BraceWrapping:
     SplitEmptyFunction: true
     SplitEmptyNamespace: true
     SplitEmptyRecord: true
-BreakBeforeConceptDeclarations: True
+# BreakBeforeConceptDeclarations: True
 BreakBeforeTernaryOperators: true
 BreakConstructorInitializers: BeforeComma
 BreakInheritanceList: BeforeComma
