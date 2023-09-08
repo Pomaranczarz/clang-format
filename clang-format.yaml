@@ -1,16 +1,16 @@
-AccessModifierOffset: -6
+AccessModifierOffset: -4
 AlignAfterOpenBracket: Align
 AlignArrayOfStructures: Left
 AlignEscapedNewlines: Left
 AlignOperands: AlignAfterOperator
 AlignTrailingComments: true
-AllowShortBlocksOnASingleLine: Always
+AllowShortBlocksOnASingleLine: Never
 AllowShortCaseLabelsOnASingleLine: true
 AllowShortEnumsOnASingleLine: false
-AllowShortFunctionsOnASingleLine: Inline
-AllowShortIfStatementsOnASingleLine: AllIfsAndElse
+AllowShortFunctionsOnASingleLine: InlineOnly
+AllowShortIfStatementsOnASingleLine: Never
 AllowShortLambdasOnASingleLine: Inline
-AllowShortLoopsOnASingleLine: true
+AllowShortLoopsOnASingleLine: false
 AlwaysBreakBeforeMultilineStrings: false
 AlwaysBreakTemplateDeclarations: Yes
 BitFieldColonSpacing: Both
@@ -32,12 +32,12 @@ BraceWrapping:
     SplitEmptyFunction: true
     SplitEmptyNamespace: true
     SplitEmptyRecord: true
-# BreakBeforeConceptDeclarations: True
+BreakBeforeConceptDeclarations: Always
 BreakBeforeTernaryOperators: true
 BreakConstructorInitializers: BeforeComma
 BreakInheritanceList: BeforeComma
 BreakStringLiterals: true
-ColumnLimit: 0
+ColumnLimit: 120
 CompactNamespaces: false
 Cpp11BracedListStyle: false
 EmptyLineBeforeAccessModifier: LogicalBlock
@@ -50,20 +50,18 @@ IndentExternBlock: Indent
 IndentGotoLabels: false
 IndentPPDirectives: BeforeHash
 IndentRequires: true
-IndentWidth: 6
 InsertTrailingCommas: None
 KeepEmptyLinesAtTheStartOfBlocks: false
 LambdaBodyIndentation: OuterScope
 Language: Cpp
 MaxEmptyLinesToKeep: 1
 NamespaceIndentation: All
-PPIndentWidth: 4
-PackConstructorInitializers: NextLine
+PackConstructorInitializers: Never
 PointerAlignment: Left
 QualifierAlignment: Custom
 QualifierOrder: ['inline', 'static', 'constexpr', 'volatile', 'const', 'type']
 ReferenceAlignment: Pointer
-# RequiresClausePosition: OwnLine
+RequiresClausePosition: OwnLine
 SeparateDefinitionBlocks: Always
 SortUsingDeclarations: true
 SpaceAfterCStyleCast: true
@@ -81,8 +79,8 @@ SpaceBeforeParensOptions:
     AfterFunctionDeclarationName: false
     AfterFunctionDefinitionName: false
     AfterOverloadedOperator: false
-    # AfterRequiresInClause: true
-    # AfterRequiresInExpression: true
+    AfterRequiresInClause: true
+    AfterRequiresInExpression: true
     BeforeNonEmptyParentheses: false
 SpaceBeforeRangeBasedForLoopColon: true
 SpaceBeforeSquareBrackets: false
@@ -96,5 +94,7 @@ SpacesInContainerLiterals: true
 SpacesInParentheses: false
 SpacesInSquareBrackets: false
 Standard: Latest
-TabWidth: 6
-UseTab: Always
+IndentWidth: 4
+TabWidth: 4
+PPIndentWidth: 4
+UseTab: Never
